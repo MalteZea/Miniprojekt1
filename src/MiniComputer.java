@@ -13,7 +13,7 @@ public class MiniComputer {
 
         System.out.println("Velkommen til minicomputer!");
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 5; i++) {
 
             System.out.print("Hvilket miniprogram vil du køre [1..9]? ");
 
@@ -24,6 +24,10 @@ public class MiniComputer {
             if ( x == 2) { Lottotal.PickANumber(); }
             // Dine if sætninger skal komme her
             // Bil.dyt();
+
+            if ( x == 2) { BMI.bodyMassIndex(); }
+
+
 
         }
 
