@@ -21,6 +21,7 @@ public class MiniComputer {
             int x = input.nextInt();
 
             if ( x == 1) { Terning.kast(); }
+            if ( x == 2) { Lottotal.PickANumber(); }
             // Dine if sætninger skal komme her
             // Bil.dyt();
 
