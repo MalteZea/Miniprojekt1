@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class MiniComputer {
 
-    private static VisKlokken VisKlokkenslet;
+    private static VisKlokken VisKlokken;
 
     public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class MiniComputer {
             if ( x == 3) { BMI.bodyMassIndex(); }
             if ( x == 4) {RandomJoke.RandomJoke();}
             if ( x == 5) { SelectAMovieSerie.selectMovieSerie(); }
-            if ( x == 6) {VisKlokkenslet.danskTidEksport(); }
+            if ( x == 6) {VisKlokken.danskTidEksport(); }
 
             }
 
