@@ -22,6 +22,7 @@ public class MiniComputer {
 
             if ( x == 1) { Terning.kast(); }
             // Dine if sætninger skal komme her
+            if ( x == 2) { BMI.bodyMassIndex(); }
             // Bil.dyt();
 
         }
