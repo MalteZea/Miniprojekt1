@@ -13,7 +13,7 @@ public class MiniComputer {
 
         System.out.println("Velkommen til minicomputer!");
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
 
             System.out.print("Hvilket miniprogram vil du køre [1..9]? ");
 
