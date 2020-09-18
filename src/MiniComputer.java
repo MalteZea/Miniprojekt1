@@ -28,7 +28,7 @@ public class MiniComputer {
 
 
 
-
+            if ( x == 5) { SelectAMovieSerie.selectMovieSerie(); }
 
         }
 
