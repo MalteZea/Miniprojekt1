@@ -26,7 +26,7 @@ public class MiniComputer {
 
             if ( x == 2) { BMI.bodyMassIndex(); }
 
-
+            if ( x == 5) { SelectAMovieSerie.selectMovieSerie(); }
 
         }
 
