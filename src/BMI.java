@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class BMI {
     public static double bodyMassIndex () {
@@ -12,7 +13,10 @@ public class BMI {
 
         double result = weight / Math.pow(height, 2);
 
-        System.out.println("Din BMI er " + result);
+        DecimalFormat df = new DecimalFormat("0.#");
+        String formatResult = df.format(result);
+
+        System.out.println("Din BMI er " + formatResult);
 
         return result;
     }
