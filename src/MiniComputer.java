@@ -19,13 +19,14 @@ public class MiniComputer {
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
-
-            if ( x == 1) { Terning.kast(); }
-            if ( x == 2) { Lottotal.PickANumber(); }
             // Dine if sætninger skal komme her
             // Bil.dyt();
+            if ( x == 1) { Terning.kast(); }
+            if ( x == 2) { Lottotal.PickANumber(); }
+            if ( x == 3) { BMI.bodyMassIndex(); }
 
-            if ( x == 2) { BMI.bodyMassIndex(); }
+
+
 
 
 
