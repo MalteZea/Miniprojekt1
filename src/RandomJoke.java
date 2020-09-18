@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
     public class RandomJoke {
-        public static void main(String[] args) {
+        public static void RandomJoke() {
             Scanner input = new Scanner(System.in);
 
-            System.out.print("Please choose a number, 1 to 4 : ");
+            System.out.print("Please choose a number for a joke, 1 to 4 : ");
 
             int num = input.nextInt();
             if (num == 1) {

@@ -24,6 +24,7 @@ public class MiniComputer {
             if ( x == 1) { Terning.kast(); }
             if ( x == 2) { Lottotal.PickANumber(); }
             if ( x == 3) { BMI.bodyMassIndex(); }
+            if ( x == 4) {RandomJoke.RandomJoke();}
             if ( x == 5) { SelectAMovieSerie.selectMovieSerie(); }
 
         }
