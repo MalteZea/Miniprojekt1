@@ -1,10 +1,18 @@
+import java.util.Collections;
+import java.util.ArrayList;
+
 public class Lottotal {
+    public static void main(String[] args) {
 
-    public static int PickANumber() {
-
-        double resultat = Math.random() * (90 - 1 + 1) + 1;
-        System.out.println("Nummeret du har trukket er: " + (int) resultat);
-        return (int) resultat;
+        ArrayList numbers = new ArrayList();
+        for(int i = 0; i < 90; i++)
+        {
+            numbers.add(i+1);
+        }
+        Collections.shuffle(numbers);
+        System.out.print("De syv lottotal er i denne uge: ");
+        for(int j =0; j < 7; j++) {
+            System.out.print(numbers.get(j) + " ");
+        }
     }
-
 }
