@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class MiniComputer {
 
+    private static VisKlokken VisKlokkenslet;
+
     public static void main(String[] args) {
 
         System.out.println("Velkommen til Team United's minicomputer!");
@@ -26,8 +28,9 @@ public class MiniComputer {
             if ( x == 3) { BMI.bodyMassIndex(); }
             if ( x == 4) {RandomJoke.RandomJoke();}
             if ( x == 5) { SelectAMovieSerie.selectMovieSerie(); }
+            if ( x == 6) {VisKlokkenslet.danskTidEksport(); }
 
-        }
+            }
 
         System.out.println("Farvel og tak for denne gang!");
 
