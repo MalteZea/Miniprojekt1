@@ -1,3 +1,7 @@
 # Miniprojekt1
+Af Zealand United
 
-Et eksempel på en starter på miniprojekt. En fra gruppen må forke den, og invitere de andre som collaborators. 
+Miniprojekt: En minicomputer. 
+Et gruppemedlem startede og resten er inviteret som collaborators til projektet.
+
+Minicomputeren kører forskellige spændende programmer, som kører ved at indtaste tal mellem 1-6.
