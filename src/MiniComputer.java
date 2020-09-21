@@ -17,7 +17,7 @@ public class MiniComputer {
 
         for (int i = 0; i < 6; i++) {
 
-            System.out.print("Hvilket miniprogram vil du køre [1..9]? ");
+            System.out.print("Hvilket miniprogram vil du køre [1..6]? ");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
