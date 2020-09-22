@@ -2,10 +2,6 @@ import java.util.Random;
 
 public class SelectAMovieSerie {
 
-    public static void main(String[] args) {
-        selectMovieSerie();
-    }
-
     public static void selectMovieSerie() {
         String[] arr = new String[]{"Gurli Gris", "Postmand Per", "Peter Pedal", "Paw patrol", "Byggemand Bob"};
         Random movie = new Random();
